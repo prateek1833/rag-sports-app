@@ -1,0 +1,14 @@
+chromadb
+fastapi
+langchain
+langchain-community
+langchain-text-splitters
+nltk
+pydantic
+python-dotenv
+requests
+sentence-transformers
+streamlit
+torch
+transformers
+uvicorn
