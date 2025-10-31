@@ -9,8 +9,7 @@ from mcp_client import mcp_list_tools_sync, mcp_call_tool_sync
 from utils.rag_utils import get_embedder, create_chroma_db, load_chroma
 from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import Chroma
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.memory import ConversationBufferMemory
+from langchain_text_splitters import RecursiveCharacterTextSplitter  # <-- New correct importfrom langchain.memory import ConversationBufferMemory
 
 # ---------- Load documents safely ----------
 docs = []
