@@ -1,6 +1,6 @@
 # utils/memory_utils.py
 import streamlit as st
-from langchain.memory import ConversationBufferMemory
+from langchain_community.memory import ConversationBufferMemory  # <-- New correct import
 
 def get_session_memory(key: str = "conversation_memory"):
     if "conversation_memory" not in st.session_state:
